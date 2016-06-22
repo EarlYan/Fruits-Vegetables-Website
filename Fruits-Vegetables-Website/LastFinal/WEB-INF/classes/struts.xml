@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+   <package name="default" namespace="/" extends="struts-default">
+        <action name="Login" class="Controller.LoginAction">
+            <result name="success">Main_index.jsp</result>
+            <result name="input">RegisterDetail.jsp</result>
+            <result name="no">Login_index.jsp</result>
+        </action>
+        <action name="Register" class="Controller.RegisterAction">
+            <result name="yes">Login_index.jsp</result>
+            <result name="input">RegisterDetail.jsp</result>
+            <result name="no">RegisterFailed.jsp</result>
+        </action>
+        <action name="RegistDetail" class="Controller.RegisterDetail">
+            <result name="success">Main_index.jsp</result>
+            <result name="input">RegisterDetail.jsp</result>
+        </action>
+        <action name="SearchProduct" class="Controller.ProductSearchAction">
+            <result name="success">SearchSuccess.jsp</result>
+            <result name="failed">SearchFail.jsp</result>
+        </action>
+        <action name="ContactSave" class="Controller.ContactSaveAction">
+            <result name="success">Contact.jsp</result>
+            <result name="failed">Contact.jsp</result>
+        </action>
+    </package>
+</struts>    

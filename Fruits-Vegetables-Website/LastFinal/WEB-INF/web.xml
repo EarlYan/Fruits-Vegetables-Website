@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>LastFinal</display-name>
+  <filter>
+    <filter-name>struts2</filter-name>
+    <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>struts2</filter-name>
+    <url-pattern>*.action</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <servlet-name>AddToShoppingCartServlet</servlet-name>
+    <servlet-class>Controller.AddToShoppingCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CommentsSubmitServlet</servlet-name>
+    <servlet-class>Controller.CommentsSubmitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteShoppingCartItem</servlet-name>
+    <servlet-class>Controller.DeleteShoppingCartItem</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddToShoppingCartServlet</servlet-name>
+    <url-pattern>/servlet/AddToShoppingCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentsSubmitServlet</servlet-name>
+    <url-pattern>/servlet/CommentsSubmitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteShoppingCartItem</servlet-name>
+    <url-pattern>/servlet/DeleteShoppingCartItem</url-pattern>
+  </servlet-mapping>
+</web-app>
