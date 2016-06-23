@@ -18,6 +18,6 @@ website use MD5 encryption<br />
 
 
 ### If you have any question you can email to me   
-1.[click here to send email](ysuperpaul@gmail.com)<br />  
+ysuperpaul@gmail.com<br />  
 
 
