@@ -1,14 +1,14 @@
 Fruits-Vegetalbes-Website
 ===================================  
-###using Struts2<br />  
-##mysql   port:3307<br />  
-##        username:root<br />  
-##        password:usbw<br />  
-##website use MD5 encryption<br />
-##        so if you want to login you can use this account to test:<br />
-##        username:zhangsan<br />
-##        password:123<br />
-##        or you can regist a new account to test...
+using Struts2<br />  
+mysql   port:3307<br />  
+        username:root<br />  
+        password:usbw<br />  
+website use MD5 encryption<br />
+        so if you want to login you can use this account to test:<br />
+        username:zhangsan<br />
+        password:123<br />
+        or you can regist a new account to test...
         
 ### Here is the effect picture   
 ![github](http://t3.qpic.cn/mblogpic/e613526497dcd0407060/2000 "first")  
